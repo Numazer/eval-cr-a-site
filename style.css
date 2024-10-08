@@ -1,0 +1,80 @@
+nav {
+    height: 50%;
+}
+
+
+.section2 .section3 .section4 .section5 {
+    margin-top: 150px;
+    height: 20%;
+}
+
+p1  {
+    font-size: 20px;
+    margin-top: 50vh;
+    line-height: 2;
+}
+
+p2  {
+    font-size: 20px;
+    margin-top: 50vh;
+    padding-left: 150px;
+}
+
+
+#apropos {
+ padding-top: 2vh;
+}
+
+header {
+    padding: 50px;
+}
+
+#ok {
+    position: sticky;
+}
+
+img {
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    height: auto; /* Garde le ratio de l'image */
+}
+
+.devider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.image1 {
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 15px 20px 0;
+}
+
+.plat {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 600px;
+}
+
+.plat h4 {
+    margin-top: 10px;
+}
+
+.textplat {
+    font-size: 50px;
+}
+
+.center-align {width: 100%;}
+
+
+.parallax-container {
+	.valign-wrapper	{
+		height: 50%;
+	}
+}

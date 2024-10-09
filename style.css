@@ -27,6 +27,14 @@ p2  {
 
 header {
     padding: 50px;
+    position: sticky; /* Rend le header collant */
+    top: 0; /* Il se fixe en haut de la fenêtre lors du défilement */
+    background-color: white; /* Couleur de fond */
+    z-index: 1000; /* Pour qu'il soit au-dessus des autres éléments */
+}
+    
+body {
+        margin: 0; /* Évite les marges par défaut du body */
 }
 
 #ok {
@@ -86,4 +94,14 @@ img {
 .hyperliens {
     text-decoration: none;
     color: black;
+}
+
+#header1 {
+    position: sticky;
+}
+
+
+.material-icons {
+    margin-left: 90px;
+    size: 6rem;
 }

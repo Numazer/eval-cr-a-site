@@ -30,9 +30,7 @@ header {
     background-color: white; /* Couleur de fond */
     z-index: 1000; /* Pour qu'il soit au-dessus des autres éléments */
 }
-
-
-
+    
 body {
         margin: 0; /* Évite les marges par défaut du body */
 }
@@ -50,6 +48,10 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     
+}
+
+.imagelogo {
+    border-radius: 50%;
 }
 
 .image1 {

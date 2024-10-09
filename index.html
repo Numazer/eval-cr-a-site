@@ -14,9 +14,9 @@
 
    <body>
     
-    <div class="parallax-container">
+    <div id="imageduhaut" class="parallax-container">
         <div class="parallax">
-          <img src="./images/istockfood.jpg">
+          <img id="imageparra1" src="images/istockfood.jpg" class="responsive-img">
         </div>
     </div>
     <div class="card-panel ">
@@ -27,27 +27,27 @@
                 <img src="images/logoEcoEats.jpg" alt="" class="circle responsive-img">
             </div>
             <div class="section2">
-              <h4>A propos</h4>
+              <h4><a class=hyperliens href="#apropos">À propos</a></h4>
   
             </div>
             <div class="divider"></div>
             <div class="section3">
-              <h4>Menu</h4>
+              <h4><a class=hyperliens href="#menu">Menu</a></h4>
 
             </div>
             <div class="divider"></div>
             <div class="section4">
-              <h4>Comment ça fonctionne ?</h4>
+              <h4><a class=hyperliens href="#fonctionne">Comment ça fonctionne ?</a></h4>
             </div>
             <div class="divider"></div>
             <div class="section5">
-              <h4>Formulaire de contact</h4>
+              <h4><a class=hyperliens href="#formulaire">Formulaire de contact</a></h4>
             </div>                
           </header>
         </div>
         <div class="col s12 m12 l10">
           <main>
-              <div class="row">  
+             <div class="row">  
                 <div class="row s12 m6 l3">
                   <section id="apropos">
                     <h1>A propos</h1>
@@ -62,8 +62,7 @@
                         </p1>
                   </section>
               </div>
-
-                <div class="divider"></div>
+              <div class="divider"></div> 
                 <div class="row s12 m6 l3">
                 <section id="menu">
                       <h1>Menu</h1>
@@ -97,7 +96,7 @@
               </div>
 
               <div  class="row s12 m6 l3">
-                <section class="fonctionne">                  
+                <section id="fonctionne">                  
                   <h1>Comment ça fonctionne</h1>
                   <div class="divider"></div><br>
                   <section id="imageplat">
@@ -132,14 +131,7 @@
                 </section>
               </div>
 
-              <div class="row s12 m6 l3">
-                <section>
-                      <form method="post">
-                          <label for="email">email :</label>
-                          <input type="email" id="email" name="email"/>
-                      </form>
-                </section>
-              </div>
+ 
 
             </main>
         </div>
@@ -148,9 +140,22 @@
     </div>
     <div class="parallax-container">
       <div class="parallax">
-        <img src="images/pexels-photo-10.jpeg" class="responsive-img">
+        <img src="images/istockfood.jpg" class="responsive-img">
       </div>
     </div>
+    <div class="row s12 m6 l3">
+      <section id="formulaire">
+          <h1>Formulaire</h1>
+          <div class="divider"></div>
+            <form method="post">
+                <label for="email">email :</label>
+                <input type="email" id="email" name="email"/>
+            </form>
+      </section>
+    </div>
+    <footer>
+       <h2>reseaux sociaux</h2>
+    </footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {

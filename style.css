@@ -8,16 +8,14 @@ nav {
     height: 20%;
 }
 
-p1  {
+.texte1  {
     font-size: 20px;
     margin-top: 50vh;
     line-height: 2;
 }
 
-p2  {
+.texte2  {
     font-size: 20px;
-    margin-top: 50vh;
-    padding-left: 150px;
 }
 
 

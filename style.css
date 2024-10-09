@@ -25,10 +25,19 @@ nav {
 
 header {
     padding: 50px;
-    position: sticky; /* Rend le header collant */
+    position: fixed; /* Rend le header collant */
     top: 0; /* Il se fixe en haut de la fenêtre lors du défilement */
     background-color: white; /* Couleur de fond */
     z-index: 1000; /* Pour qu'il soit au-dessus des autres éléments */
+    width: 12.5%;
+    margin-top: 250px;
+    background-color: transparent;
+    color: #000;
+}
+
+.imagelogo {
+  height: 150px;
+  width: 150px;
 }
     
 body {
@@ -138,7 +147,7 @@ img {
   }
 
   #formulaire {
-  text-align: center;
+  margin-left: 325px;
   }
 
   #imagemilieubas {

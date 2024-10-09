@@ -1,7 +1,11 @@
 nav {
     height: 50%;
+    background-color: rgba(149, 216, 149, 0.966);
 }
 
+#logo {
+    height: 65px;
+}
 
 .section2 .section3 .section4 .section5 {
     margin-top: 150px;
@@ -80,10 +84,14 @@ img {
 }
 
 #imageduhaut {
-    height: 30vh;   
+    height: 40vh;   
 }
 
 .hyperliens {
     text-decoration: none;
     color: black;
+}
+
+#imagemilieubas {
+    height: 40vh;
 }

@@ -27,12 +27,11 @@ header {
     padding: 50px;
     position: fixed; /* Rend le header collant */
     top: 0; /* Il se fixe en haut de la fenêtre lors du défilement */
-    background-color: white; /* Couleur de fond */
     z-index: 1000; /* Pour qu'il soit au-dessus des autres éléments */
     width: 12.5%;
     margin-top: 250px;
     background-color: transparent;
-    color: #000;
+    color: #ffffff;
 }
 
 .imagelogo {
@@ -155,5 +154,10 @@ img {
   }
 
   .mention {
-    margin-left: 500px;
+    margin-left: 400px;
+  }
+
+  footer {
+    margin-left: 325px;
+    margin-top: 100px;
   }

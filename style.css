@@ -29,9 +29,11 @@ header {
     top: 0; /* Il se fixe en haut de la fenêtre lors du défilement */
     z-index: 1000; /* Pour qu'il soit au-dessus des autres éléments */
     width: 12.5%;
-    margin-top: 250px;
+    margin-top: 75px;
     background-color: transparent;
     color: #ffffff;
+    margin-bottom: 700px;
+    text-shadow: #ffffff 1px 0 5px;
 }
 
 .imagelogo {
@@ -41,10 +43,6 @@ header {
     
 body {
         margin: 0; /* Évite les marges par défaut du body */
-}
-
-#ok {
-    position: sticky;
 }
 
 img {
